@@ -16,10 +16,28 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Before you begin, ensure you have the latest version of [Node.js](https://nodejs.org/) installed on your machine. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Before you begin, ensure you have the latest version of Node.js installed on your machine. Also, you will need Yarn installed to manage the project's dependencies. This project was bootstrapped with Create React App.
 
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/Yong4016/react-todo-list.git
+    ```bash
+    git clone https://github.com/Yong4016/react-todo-list.git
+    ```
+
+2. Navigate into the project directory:
+    ```bash
+    cd react-todo-list
+    ```
+
+3. Install the necessary packaghes using Yarn:
+    ```bash
+    yarn install
+    ```
+
+4. Start the development server:
+    ```bash
+    yarn start
+    ```
+    
+This runs the app in the development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
